@@ -40,7 +40,7 @@
     background-color: black;
 }
 
-button:focus {
+.button:focus {
     outline:0;
 }
 
@@ -50,6 +50,14 @@ p {
 }
 
 body {
-    background-image: radial-gradient(rgb(145, 145, 145), #eaf3ff)
+    background-image: radial-gradient(rgb(145, 145, 145), #eaf3ff);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+html {
+    height: 100%;
 }
 
